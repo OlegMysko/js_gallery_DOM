@@ -12,5 +12,5 @@ document.getElementById('thumbs').addEventListener('click', (eve) => {
   const largeImg = document.getElementById('largeImg');
 
   largeImg.setAttribute('src', largeImgsrc);
-  event.preventDefault();
+  eve.preventDefault();
 });
